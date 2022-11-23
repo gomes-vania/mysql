@@ -126,7 +126,7 @@ select *
 from tb_pizza
 inner join tb_categorias
 on tb_pizza.id_categoria = tb_categorias.id_categoria
-where sabor = "Tradicional";
+where tb_categorias.sabor = "Tradicional";
 
  
  
